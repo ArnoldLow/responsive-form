@@ -6,7 +6,7 @@ import useWindowSize from "react-use/lib/useWindowSize";
 import Confetti from "react-confetti";
 
 //Here I've created a react function that will handle the form. I've created two hooks utilising useState,
-//one of type object and one of type boolean. The object state hook allows me set the entered form data into
+//one of type object and one of type boolean. The object state hook allows me to set the entered form data into
 //the state and to retrieve the form data after a successful submit action (pending validation of form data),
 //ready to be used for a payload delivery to an API. The boolean state hook allows me to instruct the component to
 //determine which div container to render to the user depending on if the form has been submitted using a ternary,
